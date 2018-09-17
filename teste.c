@@ -129,6 +129,7 @@ void lista_Exibir_Tudo(Lista *l) {
     int i = 1;
     while(tmp != NULL){
         printf("Posicao %d: %f", i, tmp->info);
+}
         tmp = tmp->prox;
         i++;
     }
