@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+//TESTE DE GIT
+
 typedef struct no{
     double info;
     struct no *prox;
